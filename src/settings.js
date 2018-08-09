@@ -8,7 +8,12 @@ export const KEYS = {
     pause: 'SpaceBar', // we'll use this later...
   };
 
-export const PADDLEHEIGHT = 56;
-export const PADDLEWIDTH = 8;
-export const BOARDGAP = 10;
-export const PADDLESPEED = 10;
+const PaddleHeightDefault = 56;
+const PaddleWidthDefault = 8;
+const BoardGapDefault = 10;
+const PaddleSpeedDefault = 10;
+
+export const PADDLEHEIGHT = PaddleHeightDefault;
+export const PADDLEWIDTH = PaddleWidthDefault;
+export const BOARDGAP = BoardGapDefault;
+export const PADDLESPEED = PaddleSpeedDefault;
